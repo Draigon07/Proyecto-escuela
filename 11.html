@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10º Matricúlación</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style_grades11.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="repeated.css">
+   
+<body>
+    <header>
+        <nav class="menu_navegacion">
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.45ac34b2eb7851a3aeb732d9ccd32b52?rik=EobKGdpcdIr96Q&riu=http%3a%2f%2fsaintpatrick.edu.ar%2fweb%2fwp-content%2fuploads%2f2019%2f04%2fib.jpg&ehk=ai2L%2b95SrAb9VuFSPE%2bC8J%2f5Jewpcv5W0V0j1d3oWgs%3d&risl=&pid=ImgRaw&r=0" alt="">
+            </div>
+            <ul>
+                <div class="logo_escuela">
+                    <h2> COLEGIO INGENIERO EL SABER <i class='bx bx-book-reader'></i> </h2>       
+                </div>
+
+                
+                <li class="links"><a href="who's.html">Inicio</a></li>
+                <li class="links"><a href="welcome.html">Noticias</a></li>
+                <li class="links"><a href="registarse.html">Registrase</a></li>
+
+                <li><a href="#" id="menu_with-sub">Contactanos<i class='bx bx-down-arrow' style='color:rgb(211, 209, 209)'></i></a>
+                
+                    <ul class="sub_menu_contact">
+                        <li><a href="#">Instagram<i class='bx bxl-instagram' style="color: white;"></i></a></li>
+                        <li><a href="#">Facebook<i class='bx bxl-facebook-circle' style='color:#fff'></i></a></li>
+                        <li><a href="#">Email<i class='bx bx-mail-send' style="color: #fff;"></i></a></li>
+                    </ul>
+                
+                </li>
+                
+             </ul>
+               
+        </nav>
+
+    </header>
+
+
+   
+
+
+
+    <div class="formulario_container" id="form" action=""> 
+        <div class="formulario_text">
+            <div class="form">
+                <h2>!Matricúlate Ahora!</h2>
+                <input type="text" placeholder="Introduzca su nombre" id="nameUser">
+                <input type="email" placeholder="Introduzca su correo electrónico" id="emailUser">
+                <input type="password" placeholder="Contraseña" id="passwordUser">
+                <input type="number" placeholder="Edad" min="10" max="18" id="ageUser">
+                <button type="submit" id="sendInfo" class="open_modal">Enviar</button>
+                <div class="warnings"></div>
+            </div>  
+        </div>
+        <div class="formulario_img">
+            <img src="imageness/undraw_completing_6bhr.svg" alt="">
+        </div>
+    </div>
+
+
+    <div class="modal_container">
+        <div class="modal modal_close">
+            <p class="close">X</p>
+            <img src="imageness/undraw_Mobile_login_re_9ntv.svg" alt="">
+            <div class="modal_textos">
+                <h2 class="tittle_modal">!Te has registrado correctamente!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="Js/datos10º.js"></script>
+    <script src="Js/funciones10º.js"></script>
+    <script src="Js/modal.js"></script>
+    <script src="Js/repeated.js"></script>
+    
+</body>
+</html>

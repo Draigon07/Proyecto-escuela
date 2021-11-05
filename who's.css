@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sub_menu_contact{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    background-color: rgb(14, 56, 99);
+    transition: opacity 1s;
+}
+
+.sub_menu_contact li a{
+    font-size: 18px;
+   color: white;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    background-color: #ccc;
+    padding-bottom: 15px;
+}
+
+.img_div{
+    width: 45%;
+    height: 600px;
+}
+.img_div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.text_div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text_div div{
+    width: 100%;
+    text-align: left;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+.tittle span{
+    color: goldenrod;
+}
+
+.text{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.container_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(173, 171, 171);
+    padding-top: 10px;
+}
+
+
+
+.vision,.mision{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.vision{
+    background-color:rgb(9, 47, 85) ;
+}
+
+.mision{
+    background-color: rgb(235, 227, 227);
+
+}
+
+.vision > div{
+    padding: 6px;
+    color: white;
+    text-align: center;
+
+}
+
+.mision > div{
+    color:rgb(9, 47, 85);
+    text-align: center;
+    padding: 8px;
+}
+
+.img{
+    width: 40%;
+}
+
+.img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.tittle_c2v, .tittle_c2m{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.tittle_c2v span{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 100px; 
+}
+
+.text_v, .text_m{
+    font-size: 20px;
+}
+
+.tittle_c2m span{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 100px; 
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        height: 130vh;
+    }
+
+    .text_div{
+        justify-content: center;
+        margin: 2px auto;
+    }
+    
+    
+}

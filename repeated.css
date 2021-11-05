@@ -1,0 +1,60 @@
+/*Codigo que se repite en distintas secciones*/
+
+.sub_menu_contact{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    background-color: rgb(14, 56, 99);
+    transition: opacity 1s;
+}
+
+.sub_menu_contact li a{
+    font-size: 18px;
+   color: white;
+}
+
+
+.show{
+    opacity: 1;
+}
+
+
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+        height: 60vh;
+        width: 50%;
+        position: fixed;
+        top: 0;
+        right: 10px;
+        opacity: 0;  /*cambiar*/
+    }
+
+    .menu_navegacion{
+        align-items: none;
+        height: 100%;
+    }
+
+    .menu_navegacion ul{
+        flex-direction: column;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .menu_navegacion li {
+        margin-bottom: 20px;
+        
+    }
+
+    .logo_escuela{
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 1px auto;
+
+    }
+
+
+}
